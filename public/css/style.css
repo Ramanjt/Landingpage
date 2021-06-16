@@ -1,0 +1,73 @@
+body {
+    color:white;
+    height: 100vh;
+    min-height: 900px;
+}
+
+::placeholder { color: #FFFFFF; opacity: 1; }
+:-ms-input-placeholder { color: #FFFFFF;}
+::-ms-input-placeholder { color: #FFFFFF;}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #FFFFFF;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+input:-webkit-autofill {
+    -webkit-text-fill-color: #FFF;
+    background-color:transparent !important;
+ }
+.bg-trans {
+    background-color: transparent !important;
+}
+
+.bg-image {
+    background:url('../images/bg.jpg');
+    background-position: relative;
+    background-repeat:repeat-y;
+    background-size:cover;
+    height: 100vh;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.btn-submit {
+    padding:10px 5px;
+    background:#00aeef;
+    color: white;
+    width: 150px;
+}
+
+.form-control {
+    color: #fff;
+    background-color:transparent;
+}
+.form-control {
+    border: 1px solid rgba(255,255,255,0.9);
+    color: #FFF;
+    background-color: transparent;
+    height: calc(2em + .75rem + 2px);
+ }
+ .form-control:focus {
+    color: #FFF;
+    background-color:transparent !important;
+    border-color:rgba(255,255,255,0.9);
+}
+.box {
+    padding: 40px;
+    background-color:#000;
+}
+.reg:hover {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+  }
+  .bold {
+      font-weight: 600;
+  }
