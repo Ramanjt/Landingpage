@@ -37,7 +37,6 @@ CREATE TABLE `registers` (
 --
 -- Dumping data for table `registers`
 --
-
 --
 -- Indexes for dumped tables
 --
